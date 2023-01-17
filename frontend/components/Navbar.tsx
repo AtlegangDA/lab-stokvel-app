@@ -8,7 +8,7 @@ interface NavbarLinkProps {
 function NavbarLink({ href, children }: PropsWithChildren<NavbarLinkProps>) {
   return (
     <Link href={href}>
-      <a className="text-2xl text-grey-darkest hover:scale-105 hover:text-pink-600">
+      <a className="text-2xl text-grey-darkest hover:scale-105 hover:text-ligh-blue-600">
         {children}
       </a>
     </Link>
